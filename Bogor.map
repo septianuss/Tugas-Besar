@@ -1,0 +1,42 @@
+#
+# Map Demo
+#
+
+MAP
+  NAME ITASCA
+  STATUS ON
+  SIZE 600 600
+  EXTENT 106.6951 -6.6811 106.8925 -6.4549
+  UNITS METERS
+  SHAPEPATH "data"
+  IMAGECOLOR 255 255 255
+  
+  IMAGETYPE PNG
+
+  WEB
+	TEMPLATE "map.html"
+	IMAGEPATH "C:\ms4w\Apache\htdocs\bogor\tmp"
+	IMAGEURL "C:\ms4w\Apache\htdocs\bogor\tmp"
+  END  
+  
+  LAYER
+    NAME DEMOLAYER
+    TYPE LINE
+    STATUS DEFAULT
+    DATA bogor_indonesia_osm_line
+
+    CLASS
+       STYLE
+         OUTLINECOLOR 128 128 128
+         COLOR 225 225 185
+       END
+    END
+   
+    METADATA
+      WMS_TITLE "DEMO TAKEN FROM ITASCA"
+      WMS_ABSTRACT "DEMO TAKEN FROM ITASCA"
+      WMS_SRS "EPSG:26915"
+    END
+  END
+   
+END # Map File
