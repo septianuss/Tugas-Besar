@@ -1,0 +1,30 @@
+<!-- MapServer Template -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/transitional.dtd">
+
+<html>
+<head>
+<title> Peta WEBGIS BOGOR-Jawa Barat</title>
+</head>
+<body>
+<center><h3>Peta BOGOR</h3></center>
+<a href="http://localhost/cgi-bin/mapserv.exe?map=C:\ms4w\Apache\htdocs\Tugas%20Besar\bogor.map&mode=map"
+target=”_top”>Lihat Peta</a><br></br>
+		<h5>Kelompok Sistem Informasi Geografis</h5>
+		<h5>Septianus Didik Prakoso		(1134030)</h5>
+		<h5>Nafis Agung Hermawan		(1134080)</h5>
+		<h5>Ryan Septio						</h5>
+		<h5>Fery Sandria					</h5>	
+		<h5>Marlina Pramesti				</h5>
+		<h5>Ririn Dwi Novita Sari			</h5>		
+		<h4>D4 TI 3B</h4>
+	
+	<center>	
+		<img scr="http://localhost/cgi-bin/mapserv.exe?map=C:\ms4w\Apache\htdocs\Tugas%20Besar\bogor.map&mode=map">
+		<h3>D IV TEKNIK INFORMATIKA</h3>
+		<h3>POLITEKNIK POS INDONESIA</h3>
+		<h3>BANDUNG JawaBarat</h3>
+		<h3>2016</h3>
+	</center>
+</body>
+</html>
